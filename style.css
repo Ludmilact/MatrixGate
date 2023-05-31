@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(to right, rgba(205, 236, 226, 0.963),#b7dbb2
+    );
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center; /*texto vai p meio da tela em cima*/
+    align-items: center;  /* a caixa de texto com tudo vai p centro da tela*/
+}
+.login {
+    display: flex;
+    flex-direction: column; /* para a logo fica tambem em coluna e em cima dos inputs */
+    align-items: center;
+    background-color: rgb(240, 247, 254);
+    width: 355px;
+    height: 320px;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+
+.login form {
+    display: flex;
+    flex-direction: column; /* p ficar uma caixa em cima da outra*/
+    padding: 10px; /* espacamento p dentro, as caixas de texto ficam no centro do quadrado*/
+    width: 100%; 
+}
+
+
+.login input {
+    margin-top: 20px;
+    background-color: white;
+    border:none;
+    padding: 10px;
+    
+}
+
+.login img  {
+    width: 200px;
+    height: auto;
+}
+
+input::placeholder{
+color:black;
+font-size: 15px;
+}
+
+form [type="submit"] {
+    display: block;
+    background-image: linear-gradient(to right, rgba(205, 236, 226, 0.963),#86e77a);
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+
+p {
+    color:gray;
+    font-size: 15px;
+    
+}
